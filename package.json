@@ -1,4 +1,7 @@
 {
     "name": "jest-trial",
-    "license": "UNLICENSED"
+    "license": "UNLICENSED",
+    "dependencies": {
+        "typescript": "^4.8.4"
+    }
 }
