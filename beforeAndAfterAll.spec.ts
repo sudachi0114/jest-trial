@@ -1,5 +1,5 @@
 describe("before and after", () => {
-    describe("hoge", () => {
+    describe("BeforeAndAfterAll", () => {
         let variableUsedBeforeAll = 100;
         // let variableUsedBeforeEach = 100;
 
@@ -8,9 +8,16 @@ describe("before and after", () => {
             variableUsedBeforeAll = variableUsedBeforeAll + 33;
         });
 
+        //
+        afterAll(() => {
+            variableUsedBeforeAll = 100;
+        });
+
         it("100 + 33 は 133", () => {
             expect(variableUsedBeforeAll).toBe(133);
         });
+
+        console.log("afterAll：", variableUsedBeforeAll);
 
     });
 });
