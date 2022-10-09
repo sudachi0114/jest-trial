@@ -8,6 +8,7 @@ $ npx jest
 
 ```bash
 $ npm install -g jest
+$ jest
 ```
 
 - typescript と合わせて使う場合は
