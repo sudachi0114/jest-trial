@@ -8,7 +8,7 @@ describe("before and after", () => {
             variableUsedBeforeAll = variableUsedBeforeAll + 33;
         });
 
-        //
+        // このテストファイルに書かれている、全てのテストが実行された後に、1度実行される
         afterAll(() => {
             variableUsedBeforeAll = 100;
         });
