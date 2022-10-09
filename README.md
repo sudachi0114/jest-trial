@@ -42,5 +42,5 @@ $ npx ts-node app.ts
 動きません。ごめんなさい (´・ω・｀)
 
 # bib
-
+* [Jestでテストを書こう！ - bitbank techblog](https://tech.bitbank.cc/lets-test-by-jest/)
 * [Jestでテストを書こう - サバイバルTypeScript](https://typescriptbook.jp/tutorials/jest)
